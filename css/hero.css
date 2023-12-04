@@ -14,8 +14,20 @@ h1, h2{
     font-family: 'Ephesis', cursive;
 }
 
-h2, p, ol, ul{
+h2{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    color: rgb(235, 196, 192);
+}
+
+p, ol, ul{
     margin-left: 50px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
 }
 
 header h1{
@@ -38,4 +50,21 @@ main{
 
 main img{
     max-width: 120%;
+}
+
+footer{
+    padding: 50px;
+    padding-bottom: 10px;
+    background-color: rgba(240, 187, 52, 0.582);
+}
+
+.quiet{
+    opacity: 30%;
+}
+
+a{
+    color: navy;
+}
+a:hover{
+    color:rgb(235, 196, 192);
 }
